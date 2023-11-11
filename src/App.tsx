@@ -18,10 +18,10 @@ function App() {
 
   return (
     <div className="app">
-      <h1 className="center fs-30">React Invoice Generator</h1>
+      <h1 className="center fs-30">React Invoice Generator for testing </h1>
       <InvoicePage data={data} onChange={onInvoiceUpdated} />
     </div>
   )
 }
 
-export default App
+export default App;
